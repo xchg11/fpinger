@@ -1,0 +1,6 @@
+{
+	"PushFCMNotification": {
+"ApiKey":"43:43-43222test-43",
+"IdsDeviceTokens": ["11111-23233:7533-3232"]
+    }
+}

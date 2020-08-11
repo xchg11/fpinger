@@ -1,0 +1,24 @@
+image: golang
+stages:
+  - compile
+  - test
+  - package
+
+compile:
+  stage: compile
+  script: go build 
+  artifacts:
+    paths:
+    - monvps
+    expire_in: 20 minutes
+  
+test:
+  stage: test
+  script: go test
+  
+pack-gz:
+  stage: package
+  script: gzip monvps
+  artifacts:
+    paths:
+    - monvps.gz

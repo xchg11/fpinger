@@ -1,0 +1,11 @@
+{
+    "Fpinger": {
+	"ArrayIpAddrsPing":["1.1.1.1", "8.8.8.8", "8.8.4.4"],
+	"NsDNSChecks": ["176.99.12.75", "213.183.41.243"],
+	"NsDNSChecksInterval": "2m",
+	"TimeWaitPkt":"10s",
+	"Status":1,
+	"IntervalCheck": "1m",
+	"ServiceSetStatus":0 
+    }
+}
