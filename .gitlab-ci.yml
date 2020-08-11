@@ -9,7 +9,7 @@ compile:
   script: go build 
   artifacts:
     paths:
-    - monvps
+    - fpinger
     expire_in: 20 minutes
   
 test:
@@ -18,7 +18,7 @@ test:
   
 pack-gz:
   stage: package
-  script: gzip monvps
+  script: gzip fpinger
   artifacts:
     paths:
-    - monvps.gz
+    - fpinger.gz
